@@ -3,7 +3,12 @@
 
 # Greeting
 #   Runs after booting source .bashrc
-echo "Hello There"
+ cat << "EOF"
+ 
+ EOF
+
+
+
 
 # ls Aliases
 alias la='ls -aslpt'
